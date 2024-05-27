@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2DFD2;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.containe {
+    height: 40%;
+    margin: 70px auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-right: 80px;
+
+}
+
+.containe > img {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    bottom: 29px;
+    left: 40px;
+    outline: none;
+    overflow: hidden;
+
+
+}
+
+
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.car {
+    width: 100%;
+    background: #fff;
+    border: 1px solic #ccc;
+    margin-bottom: 57.5px;
+    transition: 0.3s;
+    display: flex;
+    
+
+
+}
+
+.car-header {
+    text-align: center;
+    padding: 50px 10px;
+    background: #FFFFFF;
+    border: 1px solid #F9F6EE;
+}
+
+.car-header > h2 {
+    font-size: 35px;
+    text-align: start;
+    margin-left: 72px;
+    font-weight: bold;
+}
+
+.car-header > h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    
+}
+
+.car-body{
+    padding:30px 20px ;
+    text-align: center;
+    font-size: 10px;
+}
+
+.row {
+    display: flex;
+}

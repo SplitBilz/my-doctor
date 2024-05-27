@@ -1,0 +1,45 @@
+ /* .container {
+    border: 10px solid red;
+     border-radius: 30px;
+     border-width: 10%;
+ } */
+ 
+ /* .text > h1:first-child {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: start;
+    top: 15px;
+    bottom: 25px;
+    margin-left: 3%;
+    font-size: 25px;
+    position: absolute;
+    margin-right: 20%;
+    line-height: 10px;
+    font-weight: 100px;
+
+} */
+
+/* .text > h1:nth-child(2) {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    top: 15px;
+    bottom: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    
+
+} */
+
+
+
+
