@@ -1,40 +1,34 @@
- 
- import React,{useState} from 'react'
- import { useNavigate } from 'react-router-dom';
- import './signup.css'
-
-const SignUp = ()=>{
-
-const [name, setName] = useState ('');
-const [email, setEmail] = useState('');
-const [password, setPassword] = useState ('');
-
-const navigate = useNavigate();
+import React from 'react'
+import Form from './Form'
+import Form3 from './Form3'
+import Form4 from './Form4'
+import Button from './Button'
+import './img.css';
+import Nurse from '../../assets/nurse.jpg';
 
 
- const handleSubmit =(event)=>{
-    event.preventDefault()
- }
-    return(
-        <div className='main-wrapper'>
-            <form className='signin-form' onSubmit ={handleSubmit} >
-                <label htmlFor="fullname">FullName</label>
-                <input  value ={name} onChange={(event)=>setName(event.target.value)}type='text' placeholder="FullName" id="fullname"/>
-                <label htmlFor="email">Email</label>
-                <input value={email} onChange={(event)=>setEmail(event.target.value)}type='text' placeholder="Email" id="email"/>
-                <label htmlFor="password">Password</label>
-                <input value={password} onChange={(event)=>setPassword(event.target.value)} type='Password' placeholder="Password"id="password"/>
-                <button  className='signup-btn'type='submit'>Sign Up</button>
-                <p className='sign-in' onClick={() => navigate('/login')}>Already have an Account? Sign in here </p>
-                </form>
-            
+const Signup = () => {
+  return (
+    <div className="containe"> 
+    <img className="img" src={Nurse} alt="my-image"/>           
+        <div className="row">
+            <div className="car">
+            <div className="car-header">
+        <h1>The Online resource App for Sickness Warriors</h1>
+        <h2>Create an Account</h2>
+           <div className="car-body">
+           <Form label=" i am creating an account for"/>        
+            <Form label="First Name" label2="Last Name"/>   
+            <Form3/>
+            <Form4/>
+            <Button/>
+           </div>
             </div>
-     
-    )
-
-
+            </div>
+        </div>
+      
+    </div>
+  )
 }
 
-
-
-export default SignUp;
+export default Signup;
